@@ -1,0 +1,11 @@
+{
+  "name": "remote-prompt-local",
+  "owner": { "name": "local" },
+  "plugins": [
+    {
+      "name": "remote-prompt",
+      "source": "./plugin",
+      "description": "Send and receive prompts with a remote Python server over TCP (default port 81)."
+    }
+  ]
+}
